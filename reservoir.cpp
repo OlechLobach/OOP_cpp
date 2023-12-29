@@ -32,7 +32,7 @@ bool Reservoir::compareSurfaceArea(const Reservoir& other) const {
 
 
 
-void Reservoir::setName(const std::string& nm) {
+void Reservoir::setName(const string& nm) {
     name = nm;
 }
 
@@ -48,7 +48,7 @@ void Reservoir::setMaxDepth(double md) {
     maxDepth = md;
 }
 
-std::string Reservoir::getName() const {
+string Reservoir::getName() const {
     return name;
 }
 

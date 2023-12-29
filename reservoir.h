@@ -29,7 +29,7 @@ public:
     void setLength(double l);
     void setMaxDepth(double md);
 
-    std::string getName() const;
+    string getName() const;
     double getWidth() const;
     double getLength() const;
     double getMaxDepth() const;
